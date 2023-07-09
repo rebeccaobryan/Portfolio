@@ -1,0 +1,34 @@
+/* The navigation bar */
+.links {
+    text-align: end;
+    margin-right: 20px;
+}
+#navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    margin-bottom: auto;
+  }
+  /* navbar links */
+  a:link {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+    color: purple;
+}
+a:visited {
+    text-decoration: none;
+    color: gray;
+}
+/*navbar link style*/
+li {
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 10px;
+}
