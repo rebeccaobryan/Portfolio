@@ -1,6 +1,9 @@
 html {
     box-sizing: border-box;
 }
+*, *::before, *::after {
+    box-sizing: inherit;
+}
 
 /* The navigation bar */
 .links {
@@ -39,7 +42,7 @@ li {
 /*welcome section*/
 #welcome-section {
     height: 100vh;
-    width: auto;
+    width: 100%;
     text-align: center;
     background-color: blue;
     display: flex;
@@ -47,12 +50,28 @@ li {
     flex-direction: column;
 }
 #welcome-section>p {
-    font-size: large;
+    font-size: 3rem;
     font-family: sans-serif;
     font-style: italic;
     margin: 0;
     padding: 0;
 }
-
+h1 {
+    font-size: 6rem;
+}
+.projects-header {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+@media (max-width: 61.25em)
+html {
+    font-size: 58%;
+}
 
 
