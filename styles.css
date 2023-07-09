@@ -1,3 +1,7 @@
+html {
+    box-sizing: border-box;
+}
+
 /* The navigation bar */
 .links {
     text-align: end;
@@ -32,3 +36,23 @@ li {
     font-weight: bolder;
     padding: 10px;
 }
+/*welcome section*/
+#welcome-section {
+    height: 100vh;
+    width: auto;
+    text-align: center;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#welcome-section>p {
+    font-size: large;
+    font-family: sans-serif;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+
+
